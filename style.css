@@ -1,4 +1,4 @@
-@CHARSET "UTF-8";
+@charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Grotesk:wght@300..700&display=swap');
 
 * {
@@ -70,6 +70,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 40px;
 }
 
 .conteudo > h1 {
@@ -84,9 +85,9 @@ main {
     width: 327px;
     height: 327px;
     border: 2px solid rgba(238, 238, 255, 1);
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 10px 10px 10px 10px;
     overflow: hidden;
-    padding-bottom: 50px;
+    
 }
 
 .art_txt > h1 {
@@ -126,5 +127,31 @@ main {
     background-color: rgba(248, 248, 255, 1);
     width: 375px;
     height: 590px;
-    display: block;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario > h1 {
+    text-align: left;
+    margin-top: 50px;
+}
+
+.formulario > input {
+    width: 326px;
+    height: 48px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1em;
+}
+
+.formulario > textarea {
+    width: 326px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1em;
 }
