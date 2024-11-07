@@ -15,7 +15,67 @@ Grandes telas: acima de 1200px
         height: 2739px;
     }
 
-    topo {
+    .topo {
         height: 765px;
+    }
+}
+
+@media screen and (min-width:992px) {
+
+    body {
+        overflow-x: hidden;    
+    }
+
+    main {
+        width: 100vw;
+        height: 2282px;
+        position: absolute;
+        top: 20%;
+    }
+
+    .topo {
+        width: 100vw;
+        height: 560px;
+        display: flex;
+    }
+
+    .topo > img {
+        width: 400px;
+        height: 460px;
+        gap: 0px;
+        opacity: 0px;
+        margin-top: 50px;
+        
+    }
+
+    .art_titulo {
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 37.5px;
+        text-align: left;
+        margin-left: 130px;
+    }
+
+    .conteudo {
+      width: 100vw;  
+      height: 1073px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+
+    .artigos {
+        width: 384px;
+        height: 357px;
+    }
+
+    .art_img > img {
+        width: 384px;
+    }
+
+    .formulario {
+      width: 100vw;  
+      height: 649px;
     }
 }
