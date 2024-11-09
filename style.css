@@ -17,6 +17,10 @@ main {
     transform: translate(-50%, -9%);
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 .topo {
     background: rgba(248, 248, 255, 1);
     width: 375px;
