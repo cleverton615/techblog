@@ -10,13 +10,74 @@ Grandes telas: acima de 1200px
 */
 
 @media screen and (min-width: 768px) and (max-width: 992px) { 
+
+    body {
+        overflow-x: hidden;
+    }
     main {
-        width: 768px;
+        width: 100vw;
         height: 2739px;
+        position: absolute;
+        top: 30%;
     }
 
     .topo {
-        height: 765px;
+        width: 100vw;
+        height: 764.5px;
+    }
+
+    .topo > img {
+        width: 330px;
+        height: 379.5px;
+    }
+
+    .topo_txt {
+        width: 500px;
+        word-wrap: break-word;
+        margin-left: 200px;
+    }
+
+    .topo_txt > button {
+        width: 214px;
+        height: 49px;
+    }
+
+    .conteudo {
+        width: 100vw;
+        height: 1326px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 100px;
+    }
+
+    .art_img > img {
+        width: 335px;
+    }
+
+    .artigos {
+        width: 335px;
+        height: 327px;
+    }
+
+    .formulario {
+        width: 100vw;
+        height: 649px;
+    }
+
+    .formulario > input {
+        width: 592px;
+        height: 59px;
+    }
+
+    .formulario > textarea {
+        width: 592px;
+        height: 150px;
+    }
+
+    .formulario > button {
+        width: 592px;
+        height: 47px;
     }
 }
 
@@ -36,7 +97,35 @@ Grandes telas: acima de 1200px
     .topo {
         width: 100vw;
         height: 560px;
-        display: flex;
+    }
+
+    .topo_txt {
+        width: 451px;
+        height: 281px;
+        float: left;
+        position: relative;
+        top: 45%;
+        left: 10%;
+        line-height: 2em;
+        text-align: left;
+    }
+
+    .topo_txt > h1 {
+        font-size: 1.6em;
+        text-align: left;
+    }
+
+    .topo_txt > button {
+        float: left;
+        width: 214px;
+        height: 49px;
+        border-radius: 5px;
+        opacity: 0px;
+        background: rgba(132, 106, 255, 1);
+        border-radius: 5px;
+        border: none;
+        color: white;
+        margin-left: 10px;
     }
 
     .topo > img {
@@ -44,8 +133,8 @@ Grandes telas: acima de 1200px
         height: 460px;
         gap: 0px;
         opacity: 0px;
-        margin-top: 50px;
-        
+        text-align: right;
+        margin-left: 200px;
     }
 
     .art_titulo {
@@ -68,6 +157,7 @@ Grandes telas: acima de 1200px
     .artigos {
         width: 384px;
         height: 357px;
+        margin-right: 60px;
     }
 
     .art_img > img {
@@ -77,5 +167,20 @@ Grandes telas: acima de 1200px
     .formulario {
       width: 100vw;  
       height: 649px;
+    }
+
+    .formulario > input {
+        width: 592px;
+        height: 59px;
+    }
+
+    .formulario > textarea {
+        width: 592px;
+        height: 150px;
+    }
+
+    .formulario > button {
+        width: 592px;
+        height: 47px;
     }
 }
